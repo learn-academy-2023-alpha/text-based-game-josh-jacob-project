@@ -19,7 +19,7 @@ p 'Would you like to go STRAIGHT , RIGHT, OR LEFT'
 userinput = gets.chomp
 def sec_choice (userinput)
     if userinput.downcase == "right"
-        'fantastic lets continue to the oasis'
+        'You'
     elsif userinput.downcase == "straight"
       path  "you drowned in the lake"
         exit 1
@@ -96,6 +96,7 @@ userinput = gets.chomp
 def sixth_choice (userinput)
     if userinput.downcase == "left"
         'you win'
+
     elsif userinput.downcase == "straight"
       path  "Small insects swarm you !!"
         exit 1
@@ -107,3 +108,4 @@ def sixth_choice (userinput)
     end
 end
 p sixth_choice(userinput)
+
