@@ -1,4 +1,5 @@
-p 'Play1 - What is your name?'
+p 'Ready Player One'
+p 'Player one - What is your name?'
 userinput = gets.chomp
 # p 'starting screen Crash site in front of a lake are you up for a challange ? yes or no '
 p " Hello #{userinput}, your exploritory StarShip has crashed on a unknown planet after you were attacked by space pirates. You are the only survivor. As you regain conuctiousness you only see two possible options for you to make your next move. You can either stay here and hope for the best or  you can search for the oasis that your scanner had logged before you crash landed. Would you like to search for the oasis? Yes or No?"
